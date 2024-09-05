@@ -13,7 +13,7 @@ import org.jsoup.Jsoup
 import org.jsoup.nodes.Element
 
 class OtakudesuProvider : MainAPI() {
-    override var mainUrl = "https://otakudesu.wiki"
+    override var mainUrl = "https://otakudesu.cloud"
     override var name = "Otakudesu"
     override val hasMainPage = true
     override var lang = "id"
@@ -275,7 +275,7 @@ class OtakudesuProvider : MainAPI() {
 
 class Moedesu : JWPlayer() {
     override val name = "Moedesu"
-    override val mainUrl = "https://desustream.me/moedesu/"
+    override val mainUrl = "https://desustream.com/moedesu/"
 }
 
 class DesuBeta : JWPlayer() {
